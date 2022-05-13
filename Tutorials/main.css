@@ -1,0 +1,39 @@
+.icon-bar {
+   /* set a specific width*/
+   width: 90px;
+   /*background color*/
+   background-color: rgb(165, 163, 163); 
+}
+.icon-bar a {
+   display: block; /* Icon Appears Below Each Others */
+   text-align: center; /* center aligned text */
+   padding: 16px;/* Add some Padding*/
+   transition: all 0.5s ease; /* Add Transition */
+   color: white; /* Add Some Colors To The Icons */
+   font-size: 36px; /* Add Font size to the Icons */
+}
+.icon-bar a:hover {
+   background-color: #141313; /* Add Hover Color */
+}
+.active {
+   background-color: rgb(57, 107, 57);
+}
+
+/*CSS FOR HORIZONTAL BARS*/
+.icon-ba {
+   width: 100%;
+   background-color: rgb(165, 163, 163);
+   overflow: auto;
+}
+.icon-ba a {
+   float: left; /* float links side by side*/
+   text-align: center;
+   width: 16.6%;
+   padding: 12px 0;
+   color: white;
+   font-size: 30px;
+   transition: all 0.8s ease;
+}
+.icon-ba a:hover {
+   background-color: black;
+}
